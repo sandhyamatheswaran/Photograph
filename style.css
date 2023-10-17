@@ -1,0 +1,160 @@
+*{
+    margin: 0%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #F6F4EB;
+}
+h1{
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 100px;
+    color: red;
+}
+h1:first-letter{
+     font-size: 2em;
+     color: red;
+}
+h4{
+    text-align: center;
+}
+img{
+    width: 400px;
+    height:400px;
+    margin-top: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+h2{
+    text-align: center;
+    margin-top: 6%;
+}
+h3{
+    text-align: center;
+    margin: 30px;
+}
+hr{
+    width: 50%;
+    margin: auto;
+    color: gray;   
+    margin-top: 10px ;
+}
+header{
+    padding-bottom: 30px;
+}
+.navbar{
+    display: inline;
+    padding-right: 30px;
+    padding-top: 50px;
+    float : right;
+    margin: 0%;
+    text-align: center;
+    color: gray;
+    text-decoration: none;
+  
+}
+.navbar:hover{
+    color: black;
+
+}
+.name{
+    color: brown;
+    text-align: center;
+}
+.about{
+    line-height: 2;
+    font-size: 20px;
+    margin-top: 10px;
+}
+button{
+    width: 100px;
+    height: 30px;
+    margin: 20px;
+    position: relative;
+    background-color: gray; 
+}
+button:hover{
+    background-color:antiquewhite;
+}
+.btn{
+    background-color: gray; 
+    padding:5px;
+    padding-left: 10px;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color:antiquewhite;
+}
+footer{
+     margin: 0%;
+     margin-top: 10%;
+     padding: 50px;
+    padding-left: 10px;
+    background-color: #AE445A;
+}
+.footer-link{
+    text-align: center;
+    padding-left: 50px;
+    text-decoration: none;
+    background-color: #AE445A;
+    color: black;
+}
+.footer{
+    background-color: #AE445A;
+    color: black;
+    margin-top: 3%;
+    text-align: center;
+}
+.container{
+    margin:5%;
+}
+.info{
+    margin:20px;
+}
+.caption{
+    color: green;
+    font-family: cursive;
+}
+.image{
+     padding: 5px;  
+     border-radius: 10px;
+     border: solid black;
+}
+.image:hover{
+    transform: scale(0.9);
+    box-shadow: 5px 5px 15px 15px gray;
+}
+.a1{
+    width: 500px;
+    height: 700px;
+}
+.a2,.b1{
+    width: 500px;
+    height: 500px;
+}
+.b2{
+    width: 300px;
+}
+.b3{
+    width: 400px;
+}
+.last{
+    text-decoration: none;
+}
+@media screen and (max-width: 500px){
+    img{
+        width:"200px";
+        height: "300px";
+    }
+    h1{
+        font-size: 50px;
+    }
+    body{
+        text-align: center;
+    }
+}
